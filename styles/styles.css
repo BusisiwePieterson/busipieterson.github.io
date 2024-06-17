@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+ 
 }
+
+body {
+  zoom: 80%
+ }
 
 :root {
   --color-primary: #151828;
@@ -105,7 +110,7 @@ section {
 }
 @keyframes scaleAnim {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    transform: translateY(100) scaleY(0);
   }
   100% {
     transform: translateY(0) scaleY(1);
